@@ -16,46 +16,63 @@
        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
        crossorigin="anonymous"/>
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-      <link rel="stylesheet" media="screen and (max-width: 700px)" href="phone.css" type="text/css" />
+      <link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css" type="text/css" />
+      <link rel="stylesheet" media="print" href="print.css" type="text/css" /> 
       <link rel="stylesheet" href="style.css" />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
       <title>education</title>
     </head>
     <body style="font-family:'Times New Roman', Times, serif;">
       <div class="wrapper-fluid">
-        <header class="col bg-primary border" role="alert" style="text-align: center; color: white;">
-          <h2 style="padding-top: 5px;">Diplômes et mes formations</h2>
+        <header class="col bg-primary border" role="alert" style="text-align: center; color: white; padding-bottom: 10px; margin-bottom: 10px;">
+          <h2 style="padding-top: 20px;;">Diplômes et mes formations</h2>
         </header>
          <div class="text-center">  
           <a href="../index.html"><i>Retour à la page d'accueil</i></a>
          </div>
+      <main>
        <div class="row fw-bold" style="margin-top: 50px; font-size:18px;">
          <div class="col offset-1">
           <ul>
             <li>Diplôme Décoratrice d'intérieur/Tokyo Design Academy/Tokyo Japon</li>
             <a href="https://www.tda.ac.jp/world/eng/" title="cliquez ici pour acceder Ã  Tokyo Design Academy "
-             target="_BLANK"> <image style="height: 200px; border-radius: 10%; margin-top: 30px;"
+             target="_BLANK"> <image style="height: 180px; width: 300px; border-radius: 10%; margin-top: 30px;"
              src="https://www.tda.ac.jp/world/img/mainslide/mianimg04.jpg"></image></a>
           </ul>
        </div>
+      
        <div class="col">
           <ul>
-            <li>Certificate of completion(Node.js)/Progate Ã  Tokyo Japon</li>
+            <li>Certificate of completion(Node.js)/Progate/Tokyo Japon</li>
             <a href="https://progate.com/" title="cliquez ici pour acceder Ã  Progate" target="_BLANK"><image
-             style="height: 220px; width: 400px; margin-top: 30px;" src="https://prog-8.com/assets/packs/dist/images/first_view_en-71944cd241ec7e006117..webp"></a>
+             style="height: 200px; width: 300px; margin-top: 30px;" src="https://prog-8.com/assets/packs/dist/images/first_view_en-71944cd241ec7e006117..webp"></a>
           </ul>
        </div>
        </div>
-       <div class="row fw-bold offset-2" style="margin-top: 40px; font-size:18px">
-        <div class="col">
+       <div class="teacher" style="margin-top: 40px; font-size:18px">
+        <div class="col fw-bold">
         <ul>
           <li>Diplôme Professeur de japonais/Institut Japonais Paris/Paris France</li>
           <a href="https://www.institutjaponais.com/" target="BLANK" title="cliquez ici pour acceder Ã  
-           Institut Japonais"><image style="height: 200px; border-radius: 5%; margin-top: 20px;" src="https://www.institutjaponais.com/medias/slider/part-01.jpg?c=23">
+           Institut Japonais"><image style="height: 180px; width: 360px;  border-radius: 5%; margin-top: 20px;" src="https://www.institutjaponais.com/medias/slider/part-01.jpg?c=23">
           </image></a>
         </ul>
        </div>
       </div>
       </div>
+    </main>
+      <style>
+        .teacher{
+          margin-left: 550px;
+        }
+        @media screen and (max-width: 480px) { 
+          main, .teacher {
+           font-size: 10px;
+           padding: -1px;
+           margin: 0 auto; 
+           position: absolute;
+         }
+        }
+      </style>
     </body>
     </html>
